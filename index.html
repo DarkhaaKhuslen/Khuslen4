@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Stopwatch</title>
+        <style>
+            body{
+                display: flex;
+                justify-content: center;
+                align-items: center ;
+                height: 90vh;
+                background-color:antiquewhite;
+            }
+            .Stopwatch{
+                background-color:whitesmoke;
+                width: 350px;
+                text-align: center;
+                padding: 15px;
+            }
+            ol{
+                text-align: left;
+                height: 200px;
+                overflow-y:scroll;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="Stopwatch">
+            <h1>00:00:00:00</h1>
+            <button onclick="start()">start</button>
+            <button onclick="stop()">stop</button>
+            <button onclick="restart()">restart</button>
+            <button onclick="lap()">lap</button>
+            <ol>
+                
+            </ol>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
